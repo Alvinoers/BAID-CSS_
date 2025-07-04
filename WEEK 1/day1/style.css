@@ -1,0 +1,50 @@
+body {
+    background-color: #f0f0f0; /* Warna latar */
+    font-family: Arial;
+}
+
+h1 {
+    color: rgb(8, 8, 8);
+    text-align: center;
+}
+
+h3 {
+    text-wrap: 1000px;
+    color: tomato;
+    padding: auto;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+article {
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+figure {
+    margin: 25px 0;
+    text-align: center;
+}
+
+figure img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+figure img:hover {
+    transform: scale(1.20);
+}
+
+figcaption {
+    font-style: italic;
+    color: #7f8c8d;
+    margin-top: 10px;
+    font-size: 0.9em;
+}
